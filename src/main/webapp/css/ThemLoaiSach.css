@@ -1,0 +1,72 @@
+body {
+	display: flex;
+}
+
+.admin {
+	background: #0A0A2A;
+	width: 300px;
+	height: 1000px;
+}
+
+.QuanTriVien {
+	color: white;
+	font-size: 20px;
+}
+
+.admin ul li {
+	color: white;
+	list-style: none;
+	padding-bottom: 40px;
+}
+
+.admin ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.admin ul li a:hover{
+	color: red;
+}
+
+.admin ul li ul{
+	display: none;
+}
+.admin ul li:hover ul{
+	display:block;
+}
+
+/* thêm*/
+.admin ul li ul{
+	padding-top: 20px;
+}
+
+
+
+
+
+.right {
+	background: white;
+	float: right;
+	width: 1300px;
+	height: 700px;
+}
+.right .header{
+	font-size: 40px;
+	
+}
+.right input{
+	width:500px;
+	border-radius: 10px;
+	height:30px;
+	border:1px solid grey;
+}
+.right .save{
+    margin-left: 130px;
+	width:100px;
+	
+}
+.right .save:hover{
+	background: red;
+	
+}
+

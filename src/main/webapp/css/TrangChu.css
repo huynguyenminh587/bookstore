@@ -1,0 +1,155 @@
+body{
+	font-family: Tahoma;
+	font-size:13px;
+	width:1000px;
+	margin:0px auto; /*canh lá»� cho thÃ nh pháº§n*/
+} 
+#menu_top{
+	background:#141414;
+	height: 40px;
+}
+#banner{
+	height: auto;
+	width:1000px;
+}
+#main #left{
+	width:800px;
+	/*background: #ccc;*/
+	float:left;
+	min-height: 400px;
+
+
+}
+#main #right{
+	width: 200px;
+	/*background-color: blue;*//*//phong nen co the xoa*/
+	float: left;  /*di chuyá»ƒn má»™t pháº§n tá»­ vá»‹ trÃ­ trÃ¡i hoáº·c pháº£i*/
+	min-height: 400px;
+}
+#footer{
+	background-color: #14D1CE;
+	width: 1000px;
+	text-align: left;
+	height: 60px;
+	color: black;
+	clear: left;
+	line-height: 60px;
+}
+#menu_top ul{
+	margin: 0px ;
+	padding: 0px;
+
+
+}
+#menu_top ul li{
+	list-style: none;
+	float: left;
+
+}
+
+#menu_top ul li a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height:40px;
+	color: #FFF;
+	padding-left: 65.74px; /* 65.74pxnếu trình duyệt ko giao diện ko thay đổi khi đổi file css thì nhấn F5, hoặc xóa bộ nhớ cache hoặc
+	bỏ lên trình duyệt ẩn danh vấn đề này hay gặp phải*/
+    padding-right: 65.7px;
+	border-right: 1px solid #f1f1f1;
+}
+#menu_top ul li a:hover{
+	color: red;
+}
+
+#menu_top ul li a.active{
+	background-color: #1949b5;
+}
+#banner img {
+	width: 1000px;
+}
+#banner h2{
+	position: absolute;
+	top: 30px;
+	color: #210B61;
+	font-size: 50px;
+	margin-left: 30px;
+}
+/*main #left #ul #li  img {
+	width: 20%;
+	height: 20%px;
+
+}*/
+#main #left #ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#main #left ul li{
+	list-style: none;
+	height: 350px;
+	width: 120px;
+	float: left;
+	padding: 30px ;
+}
+#main #left ul li button:hover{
+	color: red;
+}
+
+/*thêm */
+#main #left ul li .chitiet{
+	display: inline;
+	padding-left: 7px;
+	float:left;
+}
+
+#main #left ul li h3 {
+	
+	width: 120px;
+	height: 80px;
+}
+
+#main #right .menu_right ul{
+	margin: -15px 0px 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 1x solid #ccc; /*kÃ­ch thÆ°á»›c-kiá»ƒu:none, hidden, dotted, dashed, solid,mÃ u*/
+}
+
+#main #right .menu_right ul li {
+	list-style: none;
+
+
+}
+
+#main #right .menu_right ul li a{
+	display: block;;
+	text-decoration: none;
+	line-height: 32px;
+	border-bottom:1px solid #ccc;
+	background: url(../images/iconcheck.png) no-repeat;
+	text-indent: 50px;
+}
+#main #right .menu_right ul li a:hover{
+	color:orange;
+
+}
+#main #right .menu_right ul li a.active{
+	background-color: #FF00FF;
+}
+#main #right .menu_right h3{
+	background:#01DF01 url(../images/icon.png) no-repeat;
+	height: 36px;
+	margin-top :0px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	color:#FFF;
+
+
+}
+#main #right  img{
+	height: 300px;
+	width: 200px;
+	padding-top :10px;
+}

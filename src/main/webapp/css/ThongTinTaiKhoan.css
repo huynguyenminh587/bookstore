@@ -1,0 +1,73 @@
+body {
+	display: flex;
+}
+
+.admin {
+	background: #0A0A2A;
+	width: 300px;
+	height: 700px;
+}
+
+.QuanTriVien {
+	color: white;
+	font-size: 20px;
+}
+
+.admin ul li {
+	color: white;
+	list-style: none;
+	padding-bottom: 40px;
+}
+
+.admin ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.admin ul li a:hover{
+	color: red;
+}
+
+.admin ul li ul{
+	display: none;
+}
+.admin ul li:hover ul{
+	display:block;
+}
+
+/* thêm*/
+.admin ul li ul{
+	padding-top: 20px;
+}
+
+
+
+
+
+.right {
+	background: white;
+	float: right;
+	width: 1300px;
+	height: 700px;
+	font-size: 25px;
+}
+.right #form label{
+	color: red;
+}
+.right #form input{
+	border:none;
+	font-size: 25px;
+}
+.right #form .submit{
+   border:1px solid grey;
+   
+   background: green;
+   border-radius: 10px;
+}
+/*mới thêm*/
+
+
+.right #form .submit:hover{
+	background: blue;
+}
+
